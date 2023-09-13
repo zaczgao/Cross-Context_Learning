@@ -1,0 +1,9 @@
+torch==1.10.2+cu111
+torchvision==0.11.3+cu111
+faiss-gpu
+tensorboard
+classy_vision
+detectron2
+opencv_contrib_python==3.4.16.59
+sklearn
+munkres
