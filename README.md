@@ -21,7 +21,7 @@ student. Inspired by cross-modality learning, we extend this existing framework 
 by encouraging the global features and intermediate layer features to learn from each other. This leads to our novel 
 self-supervised framework: cross-context learning between global and hypercolumn features (CGH), that enforces the 
 consistency of instance relations between low- and high-level semantics. Specifically, we stack the intermediate 
-feature maps to construct a ``\textit{hypercolumn}'' representation so that we can measure instance relations using 
+feature maps to construct a **hypercolumn** representation so that we can measure instance relations using 
 two contexts (hypercolumn and global feature) separately, and then use the relations of one context to guide the 
 learning of the other. This cross-context learning allows the model to learn from the differences between the two 
 contexts. The experimental results on linear classification and downstream tasks show that our method outperforms the 
